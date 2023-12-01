@@ -4,39 +4,41 @@ const Typer = () => {
   const typerList = ["Harsh", "Web Developer", "MERN Enthusiast", "Open to Exciting Projects and Work Opportunities"];
   const [typerContent, setTyperContent] = useState("");
 
-  const letterTypingTime = 100;
-  const letterUnTypingTime = 30;
-  const phraseRetainTime = 1000;
+  const letterTypingTime = 40;
+  const phraseRetainTime = 1500;
+  const maxGibberishLength = 10; // Adjusting the maximum gibberish length as needed
 
-  const typeAndUntype = async (phrase) => {
+  const typeAndShowGibberish = async (phrase) => {
     for (let i = 0; i <= phrase.length; i++) {
-      setTyperContent(phrase.slice(0, i) + "|");
+      const randomGibberish = generateRandomGibberish(phrase.length - i, maxGibberishLength);
+      setTyperContent(phrase.slice(0, i) + randomGibberish + "|");
       await sleep(letterTypingTime);
     }
 
     await sleep(phraseRetainTime);
-
-    for (let i = phrase.length; i >= 0; i--) {
-      setTyperContent(phrase.slice(0, i) + "|");
-      await sleep(letterUnTypingTime);
-    }
   };
 
-  const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+  const generateRandomGibberish = (length, maxLength) => {
+    const characters = "!@#$%^&*()_-+=[]{}|;:'\",.<>/?1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    let randomString = "";
+
+    for (let i = 0; i < Math.min(length, maxLength); i++) {
+      randomString += characters[Math.floor(Math.random() * characters.length)];
+    }
+
+    return randomString;
+  };
+
+  const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
   useEffect(() => {
     let currentPhraseIndex = 0;
 
     const animateTyper = async () => {
-      if (currentPhraseIndex === 0) {
-        // Initial typing of "Harsh"
-        await typeAndUntype(typerList[0]);
-      } else {
-        const nextPhraseIndex = currentPhraseIndex % typerList.length;
-        const nextPhrase = typerList[nextPhraseIndex];
+      const nextPhraseIndex = currentPhraseIndex % typerList.length;
+      const nextPhrase = typerList[nextPhraseIndex];
 
-        await typeAndUntype(nextPhrase);
-      }
+      await typeAndShowGibberish(nextPhrase);
 
       currentPhraseIndex++;
       requestAnimationFrame(animateTyper);
@@ -45,7 +47,7 @@ const Typer = () => {
     animateTyper();
 
     return () => cancelAnimationFrame(animateTyper);
-  }, []); // Run useEffect only once
+  }, []); // Running useEffect only once
 
   return <div id="typer-content">{typerContent}</div>;
 };
