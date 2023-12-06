@@ -1,0 +1,8 @@
+/* CustomCursor.module.css */
+.dotMoving {
+  transform: translate(-50%, -50%) scale(1.5);
+}
+
+.outlineMoving {
+  transform: translate(-50%, -50%) scale(1.5);
+}

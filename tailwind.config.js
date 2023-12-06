@@ -18,6 +18,7 @@ module.exports = {
       ...colors,
       primary: colors.purple,
       secondary: colors.pink,
+      dot: '#14121c',
     },
   },
   plugins: [],

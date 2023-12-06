@@ -32,11 +32,16 @@ const Start = () => {
     };
   }, []);
 
-  
+  const backgroundImageStyle = {
+    backgroundImage: "url('/images/bg1.avif')",
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+  };
   
   return (
-    <section className="lg:py-16 ">
-      <div className="grid grid-cols-1 sm:grid-cols-12">
+    <section className="lg:py-16 min-h-screen bg-cover bg-center bg-no-repeat " >
+      <div className="grid grid-cols-1 sm:grid-cols-12 ">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}

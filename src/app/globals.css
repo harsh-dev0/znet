@@ -24,9 +24,71 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    cursor: none;
+    
+}
+
+.cursor-dot,
+.cursor-outline {
+  position: fixed;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+.cursor-dot {
+  width: 6px;
+  height: 6px;
+  background-color: rgb(228, 218, 218);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.cursor-outline {
+  width: 15px;
+  height: 15px;
+  mix-blend-mode: screen;
+  border: 2px solid #ffffff2b;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+  transform: translate(-50%, -50%) scale(1.5);
+}
+
+.code{
+color: rgb(235, 127, 127);
+
+}
+
+.functions{
+  color: rgb(64, 64, 223);
+}
+
+.symb1{
+  color: purple;
+}
+
+.symb2{
+  color: blue;
+  
+}
+.name{
+  color: rgb(103, 137, 249);
+}
+
+.comments{
+  color: green;
+}
+.dot{
+  color: #ffffff2b;
 }
 
 
+.hover-container:hover {
+  background-color: gray; 
+}
+
+.blinking-cursor {
   
-
-
+  width: 10px;
+  overflow: hidden;
+}
