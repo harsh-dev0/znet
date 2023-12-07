@@ -32,12 +32,7 @@ const Start = () => {
     };
   }, []);
 
-  const backgroundImageStyle = {
-    backgroundImage: "url('/images/bg1.avif')",
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
-  };
+
   
   return (
     <section className="lg:py-16 min-h-screen bg-cover bg-center bg-no-repeat " >
@@ -100,9 +95,9 @@ const Start = () => {
           className="col-span-4 flex items-center justify-center place-self-center mt-4 lg:mt-0"
           style={{ position: 'relative', textAlign: 'center' }}
         >
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+          <div className=" w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
-              src="/images/profile.png"
+              src="/images/pfp.png"
               alt="profile image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}

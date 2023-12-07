@@ -9,7 +9,7 @@ const Aboutcode = () => {
   const code2 = " Harsh Pal"
   const code121 = " {"
   const code3 = "//Live, Laugh, Code"
-  const code4 = "//My arsenal of skills continues to expand as I continue to learn."
+  const code4 = "//My arsenal of skills not only continues to grow but also evolves as I dive into learning new technologies."
   const code5 = "constructor"
   const code6 = "() {"
 
@@ -38,7 +38,7 @@ const Aboutcode = () => {
   return (
     <section className="text-pink-500 " id="about">
 
-      <div className="py-8 px-4 lg:mt-8 xl:gap-16 sm:py-16 xl:px-16">
+      <div className="py-8 px-4  xl:gap-16 sm:py-16 xl:px-16">
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base px-12 py-8 lg:text-lg">
@@ -191,6 +191,9 @@ const Aboutcode = () => {
                 <span>I am also a past 12 AM poet, a avid listner and a good speaker. If you want to connect with me, you can reach through handles given in contact section of this webpage.
                 </span>
               </span>
+              <span className='hover hover:bg-gray-700 w-full inline-block'>
+                   <span className='dot'>............</span>
+                   <span className='text-yellow-600'> {' }'}</span></span><br/>
 
               {/* ... other work experiences */}
               <span className="hover hover:bg-gray-700 w-full inline-block">
@@ -245,7 +248,7 @@ const Aboutcode = () => {
 
               <span className="hover hover:bg-gray-700 w-full inline-block">
                 <span className='dot'>....</span>
-                <span className='symb1'>{'}'}</span>
+                <span className='text-yellow-600'>{'}'}</span>
               </span><br />
             </code>
 

@@ -12,7 +12,7 @@ const TAB_DATA = [
         <li>Node.js</li>
         <li>Express</li>
         <li>PostgreSQL</li>
-        <li>Sequelize</li>
+        
         <li>JavaScript</li>
         <li>React</li>
       </ul>
