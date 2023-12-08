@@ -14,7 +14,8 @@ const CustomCursor = () => {
       setIsPointer(
         target.tagName === 'INPUT' ||
         target.tagName === 'TEXTAREA' ||
-        window.getComputedStyle(target).getPropertyValue('cursor') === 'pointer'
+        window.getComputedStyle(target).getPropertyValue('cursor') === 'pointer' ||
+        target.classList.contains('clickable-link')
       );
       setIsMoving(true);
 
