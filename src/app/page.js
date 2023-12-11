@@ -1,7 +1,7 @@
 import Start from "./components/Start"
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
-import Email from "./components/Email"
+
 import Aboutcode from "./components/Aboutcode"
 import ProjectsSection from "./components/Projects"
 
@@ -34,7 +34,7 @@ export default function Home() {
       </div>
      
       <div className="flex min-h-screen px-12 py-4 flex-grow flex-col bg-cover bg-center bg-no-repeat" style={backgroundImageStyle}>
-      <Email  />
+      
       <Footer />
       </div>
     </main>
