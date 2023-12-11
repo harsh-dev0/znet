@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
-import MenuOverlay from './MenuOverlay';
+import MenuOverlay from './Menuoverlay.jsx';
 
 const navLinks = [
   {
