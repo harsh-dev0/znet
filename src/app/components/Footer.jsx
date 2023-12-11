@@ -1,7 +1,7 @@
 import React from "react";
 
 const Footer = () => {
-const LOGO= "<ZneT />"
+const LOGO= "<Hp />"
 
   return (
     <footer className="footer mt-auto border  border-t-[#33353F] border-l-transparent border-r-transparent text-white">
