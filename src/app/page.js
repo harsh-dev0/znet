@@ -20,10 +20,10 @@ export default function Home() {
   };
   return (
     
-    <main className="flex min-h-screen flex-col bg-[#111111]"  >
-      
-      <div className="container flex flex-grow flex-col  min-h-screen mx-auto px-12 py-4 bg-cover bg-center bg-no-repeat" style={backgroundImageStyle2} >
+    <main className="flex min-h-screen flex-col bg-[#1a1527]"  >
       <Navbar />
+      <div className="container flex flex-grow flex-col  min-h-screen mx-auto px-12 py-4 bg-cover bg-center bg-no-repeat" >
+      
         <Start />
       </div>
       <div className="container  mx-auto px-12 py-8 " >
