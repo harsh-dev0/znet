@@ -84,7 +84,7 @@ const Aboutcode = () => {
                 <span className='functions'>this</span>
                 <span className='text-blue-300'>.email</span>
                 <span className='text-white'> = </span>
-                <span className=''>'harshpa324@gmail.com'</span>
+                <span className=''>'contacthp311@gmail.com'</span>
                 <span className='text-white'>;</span>
               </span><br />
               <span className="hover hover:bg-gray-700 w-full inline-block">

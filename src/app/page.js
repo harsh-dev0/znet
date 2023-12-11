@@ -1,7 +1,7 @@
 import Start from "./components/Start"
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
-
+import Email from "./components/email"
 import Aboutcode from "./components/Aboutcode"
 import ProjectsSection from "./components/Projects"
 
@@ -29,12 +29,12 @@ export default function Home() {
       <div className="container  mx-auto px-12 py-8 " >
         <ProjectsSection />
       </div>
-      <div className="container flex bg-dot min-h-screen px-0 lg:px-12 py-0 lg:py-4 flex-grow flex-col bg-cover bg-center bg-no-repeat">
+      <div className="flex bg-dot min-h-screen px-0 lg:px-12 py-0 lg:py-4 flex-grow flex-col bg-cover bg-center bg-no-repeat">
       <Aboutcode/> 
       </div>
      
       <div className="flex min-h-screen px-12 py-4 flex-grow flex-col bg-cover bg-center bg-no-repeat" style={backgroundImageStyle}>
-      
+      <Email />
       <Footer />
       </div>
     </main>
