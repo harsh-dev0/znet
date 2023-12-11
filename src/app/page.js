@@ -29,7 +29,7 @@ export default function Home() {
       <div className="container  mx-auto px-12 py-8 " >
         <ProjectsSection />
       </div>
-      <div className="container flex bg-dot min-h-screen px-12 py-4 flex-grow flex-col bg-cover bg-center bg-no-repeat">
+      <div className="container flex bg-dot min-h-screen px-0 lg:px-12 py-0 lg:py-4 flex-grow flex-col bg-cover bg-center bg-no-repeat">
       <Aboutcode/> 
       </div>
      
