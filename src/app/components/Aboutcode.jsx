@@ -38,10 +38,10 @@ const Aboutcode = () => {
   return (
     <section className="text-pink-500 " id="about">
 
-      <div className="py-0 lg:py-8 px-0 lg:px-4   ">
+      <div className="py-8 px-0 lg:px-4   ">
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-base px-0 lg:px-12 py-0 lg:py-8 lg:text-lg">
+          <p className="text-base px-2 lg:px-12 py-8 lg:text-lg">
             <code className='code'>
               {/* 1 line */}
               <span className="hover hover:bg-gray-700 w-full  inline-block">
