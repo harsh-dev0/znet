@@ -4,8 +4,8 @@ const Typer = () => {
   const typerList = ["Harsh", "Web Developer", "MERN Enthusiast", "Open to Exciting Projects and Work Opportunities"];
   const [typerContent, setTyperContent] = useState("");
 
-  const letterTypingTime = 40;
-  const phraseRetainTime = 1500;
+  const letterTypingTime = 50;
+  const phraseRetainTime = 2000;
   const maxGibberishLength = 5; // Adjusting the maximum gibberish length as needed
 
   const typeAndShowGibberish = async (phrase) => {
