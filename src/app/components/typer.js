@@ -5,7 +5,7 @@ const Typer = () => {
   const [typerContent, setTyperContent] = useState("");
 
   const letterTypingTime = 50;
-  const phraseRetainTime = 2000;
+  const phraseRetainTime = 1500;
   const maxGibberishLength = 5; // Adjusting the maximum gibberish length as needed
 
   const typeAndShowGibberish = async (phrase) => {
