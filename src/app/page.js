@@ -33,7 +33,7 @@ export default function Home() {
       <Aboutcode/> 
       </div>
      
-      <div className="container flex  flex-grow flex-col bg-cover bg-center bg-no-repeat" style={backgroundImageStyle}>
+      <div className=" flex  flex-grow flex-col bg-cover bg-center bg-no-repeat" style={backgroundImageStyle}>
       <Email />
       <Footer />
       </div>
