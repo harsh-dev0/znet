@@ -22,9 +22,17 @@ const projectsData = [
   },
   {
     id: 3,
+    title: "Blogify",
+    description: "A project for creating and uploading blogs",
+    image: "/images/projects/3.png",
+    gitUrl: "https://github.com/harshpa324/Blogify",
+    previewUrl: "#",
+  },
+  {
+    id: 4,
     title: "My Portfolio Website",
     description: "My personal site.",
-    image: "/images/projects/3.png",
+    image: "/images/projects/4.png",
     gitUrl: "https://github.com/harshpa324/znet",
     previewUrl: "/",
   },
