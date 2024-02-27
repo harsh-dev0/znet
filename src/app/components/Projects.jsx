@@ -26,7 +26,7 @@ const projectsData = [
     description: "A project for creating and uploading blogs",
     image: "/images/projects/3.png",
     gitUrl: "https://github.com/harshpa324/Blogify",
-    previewUrl: "#",
+    previewUrl: "https://blogify-rosy.vercel.app/",
   },
   {
     id: 4,
