@@ -5,7 +5,7 @@ import CustomCursor from './components/CustomCursor'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Harsh',
+  title: 'Harsh Pal',
   description: 'My Portfolio Website',
 }
 
