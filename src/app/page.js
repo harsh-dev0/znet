@@ -20,7 +20,7 @@ export default function Home() {
   };
   return (
     
-    <main className="flex min-h-screen flex-col bg-[#1a1527]"  >
+    <main className="flex min-h-screen flex-col bg-zinc-900"  >
       <Navbar />
       <div className="container flex flex-grow flex-col  min-h-screen mx-auto px-12 py-4 bg-cover bg-center bg-no-repeat" >
       
@@ -29,7 +29,7 @@ export default function Home() {
       <div className="container  mx-auto px-12 py-8 " >
         <ProjectsSection />
       </div>
-      <div className="flex bg-dot min-h-screen px-2 lg:px-12 py-4 flex-grow flex-col bg-cover bg-center bg-no-repeat">
+      <div className="flex  min-h-screen px-2 lg:px-12 py-4 flex-grow flex-col bg-cover bg-center bg-no-repeat">
       <Aboutcode/> 
       </div>
      

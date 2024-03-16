@@ -7,26 +7,26 @@ import MenuOverlay from './Menuoverlay.jsx';
 
 const navLinks = [
   {
-    title: 'Start/>',
+    title: 'Start',
     to: 'home',
   },
   {
-    title: 'Work/>',
+    title: 'Work',
     to: 'projects',
   },
   {
-    title: 'About/>',
+    title: 'About',
     to: 'about',
   },
   {
-    title: 'Contact/>',
+    title: 'Contact',
     to: 'contact',
   },
 ];
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
-  const logo = '<Hp />';
+  const logo = 'Suyash';
   const [isBlurred, setIsBlurred] = useState(false);
 
 
