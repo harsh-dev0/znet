@@ -12,12 +12,7 @@ export default function Home() {
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
   };
-  const backgroundImageStyle2 = {
-    backgroundImage: "url('/images/bggg.jpg')",
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
-  };
+ 
   return (
     
     <main className="flex min-h-screen flex-col bg-[#1a1527]"  >
