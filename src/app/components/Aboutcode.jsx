@@ -181,8 +181,7 @@ const Aboutcode = () => {
  <span className="hover hover:bg-gray-700 w-full inline-block">
                 <br/>
                 <span className='dot'>............</span>
-                <span>I have hands-on experience in developing a fully-fledged MERN stack project from scratch, which is currently deployed at <a href='https://shivajewellers.netlify.app/' target='_blank' style={{ textDecoration: 'underline' }}>shivajewellers</a>.
-                Additionally, I've contributed to the development of an open-source, publicly available API for the game <a href='https://github.com/devesh-anand/genshin-api' target='_blank' style={{ textDecoration: 'underline' }}>Genshin Impact</a>.
+                <span>In addition to my hands-on experience in developing a fully-fledged MERN stack project from scratch, showcased at <a href='https://shivajewellers.netlify.app/' target='_blank' style={{ textDecoration: 'underline' }}>shivajewellers</a>, I've also contributed to the development of an open-source unofficial API for the popular game <a href='https://github.com/devesh-anand/genshin-api' target='_blank' style={{ textDecoration: 'underline' }}>Genshin Impact</a>.. Moreover, I have experience building <a href='https://code-zen.vercel.app/' target='_blank' style={{ textDecoration: 'underline' }}>CodeZen</a>., an online code editor powered by MERN stack. CodeZen allows users to save and edit code seamlessly, offering a dynamic coding environment.
                 </span><br/>
               </span><br />
               <span className="hover hover:bg-gray-700 w-full inline-block">
