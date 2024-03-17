@@ -71,7 +71,7 @@ const Start = () => {
           <p className='text-[#8c9397] text-base sm:text-lg mb-6 lg:text-xl'>
             I am a MERN stack developer. I am willing to learn thrive and exceed any expectations. Currently learning advanced technologies of web development.
           </p>
-          <div className=" lg:mb-36">
+          <div className=" lg:mb-20">
             <Link
               href="/#contact"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"

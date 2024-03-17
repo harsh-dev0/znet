@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 const Typer = () => {
-  const typerList = ["Harsh Pal", "Web Developer", "MERN Enthusiast", "Open to Exciting Projects and Work Opportunities"];
+  const typerList = ["Harsh Pal", "Web Developer", "MERN Enthusiast", "Open to Work"];
   const [typerContent, setTyperContent] = useState("");
 
   const letterTypingTime = 60;
