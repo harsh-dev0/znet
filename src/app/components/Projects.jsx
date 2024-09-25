@@ -28,22 +28,22 @@ const projectsData = [
     gitUrl: "https://github.com/devesh-anand/genshin-api",
     previewUrl: "https://genshin-impact.up.railway.app/",
   },
-  {
-    id: 4,
-    title: "Blogify",
-    description: "A project for creating and uploading blogs",
-    image: "/images/projects/4.png",
-    gitUrl: "https://github.com/harshpa324/Blogify",
-    previewUrl: "https://blogify-rosy.vercel.app/",
-  },
-  {
-    id: 5,
-    title: "My Portfolio Website",
-    description: "My personal site.",
-    image: "/images/projects/5.png",
-    gitUrl: "https://github.com/harshpa324/znet",
-    previewUrl: "/",
-  },
+  // {
+  //   id: 4,
+  //   title: "Blogify",
+  //   description: "A project for creating and uploading blogs",
+  //   image: "/images/projects/4.png",
+  //   gitUrl: "https://github.com/harshpa324/Blogify",
+  //   previewUrl: "https://blogify-rosy.vercel.app/",
+  // },
+  // {
+  //   id: 5,
+  //   title: "My Portfolio Website",
+  //   description: "My personal site.",
+  //   image: "/images/projects/5.png",
+  //   gitUrl: "https://github.com/harshpa324/znet",
+  //   previewUrl: "/",
+  // },
   // Will Add more projects
 ];
 
