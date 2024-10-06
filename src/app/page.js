@@ -4,6 +4,7 @@ import Footer from "./components/Footer"
 import Email from "./components/email"
 import Aboutcode from "./components/Aboutcode"
 import ProjectsSection from "./components/Projects"
+import Script from "next/script"
 
 export default function Home() {
   return (
@@ -21,6 +22,30 @@ export default function Home() {
       <div className="min-h-screen">
         <Email />
         <Footer />
+        {/* <Script id="review-widget-config" strategy="beforeInteractive">
+          {`
+            window.reviewWidgetConfig = {
+              bubbleColor: '#FF5733',
+              bubbleTextColor: '#000000',
+              bubbleSize: '80px',
+              popupBackgroundColor: '#FAFAFA',
+              popupBorderColor: '#333333',
+              reviewHeaderText: 'User Feedback',
+              noReviewsText: 'Currently no feedback available.',
+              submitButtonText: 'Submit Now',
+              position: {
+                bottom: '30px',
+                right: '30px'
+              }
+            };
+          `}
+        </Script>
+
+        {/* Load the review widget script *
+        <Script
+          src="https://customer-review-tracking-application-be.onrender.com/review-widget.js"
+          strategy="afterInteractive"
+        /> */}
       </div>
     </main>
   )
